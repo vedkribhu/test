@@ -1,13 +1,110 @@
 {
 	"info": {
-		"_postman_id": "337f390d-51d7-4f92-8eec-5beb1526c776",
+		"_postman_id": "7c029709-4635-4dcd-9582-e06ae4f7ddb7",
 		"name": "test",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
+			"name": "New Folder",
+			"item": [
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "bc4fb35a-d1b5-4a3d-87d2-b3f39d194391"
+				},
+				{
+					"name": "New Request",
+					"id": "0a4d612b-1018-47b4-8061-face7f3ce419",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request Copy",
+					"id": "99b1199d-75fa-4358-a299-897a738e1da0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "google.com?dfsd",
+							"host": [
+								"google",
+								"com"
+							],
+							"query": [
+								{
+									"key": "dfsd",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request Copy",
+					"id": "831db1d0-e1f7-4219-9b12-b788f278c6d7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request Copy",
+					"id": "140ba6a2-99db-4b88-a455-326200ab7cc5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "716975d0-5eda-452a-92d4-ee73293a9ecd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "google.com?dfsd",
+							"host": [
+								"google",
+								"com"
+							],
+							"query": [
+								{
+									"key": "dfsd",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "7a2e932c-4281-4810-99d1-ffc05ddbf51b"
+		},
+		{
 			"name": "Sample endpoint: Returns details about a particular user",
-			"id": "6947cf26-e899-4220-99bb-a96db06eb425",
+			"id": "ca4266f9-f59e-491b-91aa-497ab0fce3d4",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -17,25 +114,16 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/user?id=-12065245",
+					"raw": "google.com",
 					"host": [
-						"{{baseUrl}}"
-					],
-					"path": [
-						"user"
-					],
-					"query": [
-						{
-							"key": "id",
-							"value": "-12065245",
-							"description": "(Required) ID of the user"
-						}
+						"google",
+						"com"
 					]
 				}
 			},
 			"response": [
 				{
-					"id": "eba85b65-47e5-4ede-b545-6ed2a7a946a6",
+					"id": "91ce4708-c8ae-4572-b435-c55f746d663d",
 					"name": "Sample response: Details about a user by ID",
 					"originalRequest": {
 						"method": "GET",
@@ -82,7 +170,7 @@
 					"body": "{\n  \"id\": -46484579,\n  \"name\": \"nisi ut Ut proident exercitation\",\n  \"tag\": \"ex quis\"\n}"
 				},
 				{
-					"id": "840df1e5-fbbb-4652-a600-da527fdba5bd",
+					"id": "aa4a1f86-dd97-4770-8cdd-5591d6cf7ebe",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -123,6 +211,37 @@
 					"body": "{\n  \"code\": 62953531,\n  \"message\": \"aliquip\"\n}"
 				}
 			]
+		},
+		{
+			"name": "dsfs",
+			"id": "384842f7-4067-4e8e-8b39-1125fae72bd3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "google.com",
+					"host": [
+						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "f95328e2-969e-446e-b7e9-03d451a2a7b0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"auth": {
